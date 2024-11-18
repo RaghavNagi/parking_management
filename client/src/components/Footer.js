@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Styles/Fotter.css'
-const Fotter = () => {
+import '../Styles/Footer.css'
+const Footer = () => {
   return (
     <>
       <div class="footer">
@@ -23,4 +23,4 @@ const Fotter = () => {
   )
 }
 
-export default Fotter
+export default Footer
