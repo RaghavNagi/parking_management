@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Fotter from './components/Fotter'
 import SignUp from './components/SignUp'
 import ParkingSpace from './components/ParkingSpace';
+import Wallet from './components/Wallet';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
      <Navbar/>
      {/* <SignUp/> */}
-     <ParkingSpace/>
+     {/* <ParkingSpace/> */}
+     <Wallet/>
      <Fotter/>
      
     </div>
